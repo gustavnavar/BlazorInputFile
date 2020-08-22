@@ -5,6 +5,11 @@
     <RazorLangVersion>3.0</RazorLangVersion>
     <LangVersion>preview</LangVersion>
     <PackageVersion>0.2.1</PackageVersion>
+    <Title>BlazorInputFile</Title>
+    <Description>A fork from: https://github.com/SteveSandersonMS/BlazorInputFile </Description>
+    <Product>BlazorInputFile</Product>
+    <PackageId>Agno.BlazorInputFile</PackageId>
+    <PackageProjectUrl>https://github.com/gustavnavar/BlazorInputFile</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
 
