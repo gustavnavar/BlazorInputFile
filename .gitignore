@@ -3,3 +3,4 @@ bin/
 obj/
 *.user
 samples/Sample.WebAssembly/wwwroot/_content/
+/BlazorInputFile/Properties/PublishProfiles/FolderProfile.pubxml

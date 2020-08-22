@@ -5,10 +5,10 @@
 <p>A multi-file picker that displays information about selection and shows progress as each one is loaded.</p>
 
 <label for="uploadFiles">Select File(s)</label>
-<InputFile id="uploadFiles" multiple OnChange="HandleSelection" />
+<InputFile id="uploadFiles" multiple OnFileChange="HandleSelection" />
 
 <label for="uploadFolder">Select Folder</label>
-<InputFile id="uploadFolder" multiple webkitdirectory OnChange="HandleSelection" />
+<InputFile id="uploadFolder" multiple webkitdirectory OnFileChange="HandleSelection" />
 
 @if (selectedFiles != null)
 {
