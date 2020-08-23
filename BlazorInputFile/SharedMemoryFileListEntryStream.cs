@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace BlazorInputFile
+namespace Agno.BlazorInputFile
 {
     // This is used on WebAssembly
     internal class SharedMemoryFileListEntryStream : FileListEntryStream

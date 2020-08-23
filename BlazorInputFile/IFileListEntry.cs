@@ -2,7 +2,7 @@
 using System.IO;
 using System.Threading.Tasks;
 
-namespace BlazorInputFile
+namespace Agno.BlazorInputFile
 {
     public interface IFileListEntry
     {

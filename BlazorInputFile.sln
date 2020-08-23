@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.Server", "samples\Sa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.WebAssembly", "samples\Sample.WebAssembly\Sample.WebAssembly.csproj", "{28B157AE-2F2D-4438-8493-3FE9148E442B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Core", "samples\Sample.Core\Sample.Core.csproj", "{5D825DE4-4A0D-439F-A3BB-F16B33461F16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.Core", "samples\Sample.Core\Sample.Core.csproj", "{5D825DE4-4A0D-439F-A3BB-F16B33461F16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

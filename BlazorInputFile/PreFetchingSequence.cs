@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 
-namespace BlazorInputFile
+namespace Agno.BlazorInputFile
 {
     internal class PreFetchingSequence<T>
     {

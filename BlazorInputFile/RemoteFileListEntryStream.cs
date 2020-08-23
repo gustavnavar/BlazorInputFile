@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 
-namespace BlazorInputFile
+namespace Agno.BlazorInputFile
 {
     // This class streams data from JS within the existing API limits of IJSRuntime.
     // To produce good throughput, it prefetches up to buffer_size data from JS

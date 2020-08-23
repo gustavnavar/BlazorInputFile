@@ -5,7 +5,7 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace BlazorInputFile
+namespace Agno.BlazorInputFile
 {
     // TODO: When ReadAsync is called, don't just fetch the segment of data that's being requested.
     // That will be very slow, as you may be doing a separate round-trip for each 1KB or so of data.

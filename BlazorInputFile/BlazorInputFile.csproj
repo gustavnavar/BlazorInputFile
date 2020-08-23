@@ -1,16 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
     <RazorLangVersion>3.0</RazorLangVersion>
     <LangVersion>preview</LangVersion>
-    <PackageVersion>0.2.1</PackageVersion>
-    <Title>BlazorInputFile</Title>
-    <Description>A fork from: https://github.com/SteveSandersonMS/BlazorInputFile </Description>
-    <Product>BlazorInputFile</Product>
+    <PackageVersion>0.2.0</PackageVersion>
+    <Title>Agno.BlazorInputFile</Title>
+    <Description>A fork from https://github.com/SteveSandersonMS/BlazorInputFile </Description>
+    <Product>Agno.BlazorInputFile</Product>
     <PackageId>Agno.BlazorInputFile</PackageId>
     <PackageProjectUrl>https://github.com/gustavnavar/BlazorInputFile</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <AssemblyName>Agno.BlazorInputFile</AssemblyName>
+    <RootNamespace>Agno.BlazorInputFile</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
