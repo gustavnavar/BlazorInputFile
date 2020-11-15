@@ -18,7 +18,7 @@
         foreach (var file in files)
         {
             // So that method invocations on the file can be dispatched back here
-            file.Owner = (InputFile)(object)this;
+            file.Owner = (AgnoInputFile)(object)this;
         }
 
         return OnFileChange.InvokeAsync(files);
@@ -45,7 +45,7 @@
         var imageFile = await JSRuntime.InvokeAsync<FileListEntryImpl>("BlazorInputFile.toImageFile", InputFileElement, file.Id, format, maxWidth, maxHeight);
 
         // So that method invocations on the file can be dispatched back here
-        imageFile.Owner = (InputFile)(object)this;
+        imageFile.Owner = (AgnoInputFile)(object)this;
 
         return imageFile;
     }

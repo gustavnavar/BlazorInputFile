@@ -8,7 +8,7 @@ namespace Agno.BlazorInputFile
     // but otherwise is intended as internal
     public class FileListEntryImpl : IFileListEntry
     {
-        internal InputFile Owner { get; set; }
+        internal AgnoInputFile Owner { get; set; }
 
         private Stream _stream;
 
